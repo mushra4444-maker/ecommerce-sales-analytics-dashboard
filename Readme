@@ -1,0 +1,34 @@
+# E-commerce Sales Analytics Dashboard
+
+## Overview
+An e-commerce sales analytics project that uses Python for data cleaning and analysis and Microsoft Power BI for interactive data visualization.
+
+## Technologies
+- Python
+- Pandas and NumPy
+- Matplotlib
+- Microsoft Power BI
+- DAX
+
+## Features
+- Data cleaning and preparation
+- Revenue analysis by month, city, and product
+- KPI cards for total revenue, orders, customers, and units sold
+- Interactive City, Product, and Date slicers
+- Monthly revenue trend analysis
+
+## Project Structure
+- `E-commercesales.py` — Python analysis script
+- `output/` — cleaned data, summary files, and charts
+- `README.md` — project documentation
+
+## Results
+The sample dataset contains 30 sales records and 10 unique customers, with total calculated revenue of 1,176,000 in the dataset's currency.
+
+## How to Run
+1. Install Python.
+2. Install the required libraries: `pip install pandas numpy matplotlib`
+3. Run `E-commercesales.py`.
+4. Open the saved Power BI `.pbix` file in Power BI Desktop to explore the dashboard.
+
+*Note: Product names and currency should be verified against the original dataset before publication.*
